@@ -4,6 +4,10 @@
   <artifactId>labcode</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>lab_code</name>
+  <properties>
+  <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  <maven.compiler.release>15</maven.compiler.release>
+  </properties>
   <dependencies>
   	<dependency>
   		<groupId>junit</groupId>
@@ -16,4 +20,5 @@
   		<version>3.8.0</version>
   	</dependency>
   </dependencies>
+  
 </project>
